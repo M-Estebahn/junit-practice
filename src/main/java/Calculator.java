@@ -16,4 +16,12 @@ public class Calculator {
         System.out.println(df.format(bill+tip));
         return (bill+tip);
     }
+
+    public int[] addInArray(int num,int[] arr){
+
+        for(int i=0;i<arr.length;++i){
+             arr[i]+=num;
+        }return arr;
+
+    }
 }
